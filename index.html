@@ -874,22 +874,23 @@
     <div class="row">
       <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
         <h1 class="wow fadeInUp" data-wow-duration="1.5s">お問い合わせ</h1>
-        <form method="POST" action="" data-toggle="validator">
+        
+        <form action="//formspree.io/aktk.saidai@email.com" method="POST">
           <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
             <div class="form-group col-lg-6">
-              <input class="form-control" type="text" name="username" id="username" placeholder="名前" required>
+              <input class="form-control" type="text" name="name" id="username" placeholder="名前" required>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-6">
-              <input class="form-control" type="email" id="email" name="email" placeholder="メールアドレス" required>
+              <input class="form-control" type="email" id="email" name="_replyto" placeholder="メールアドレス" required>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-12">
-              <textarea class="form-control" name="message" id="message" rows="12" placeholder=""></textarea>
+              <textarea class="form-control" name="content" id="message" rows="12" placeholder=""></textarea>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-12 sub-button">
-              <button class="submit form-control hvr-icon-push" type="submit" value="send"> 送信 </button>
+              <button class="submit form-control hvr-icon-push" type="submit" value="Send"> 送信 </button>
             </div>
           </div>
         </form>
